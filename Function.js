@@ -71,8 +71,15 @@ function add_product(product_obj,id){
 function add_all_products(products){
     for(let i=0;i<products.length;i++){
         add_product(products[i],i); 
-        console.log(i);  
+        // console.log(i);  
     }
 }
 
 add_all_products(products);
+
+// s
+
+
+// add_products_in_showcase(){
+
+// }
